@@ -37,7 +37,7 @@ RUN apt-get update && \
 
 # 6️⃣ 下载 JAR 文件
 RUN wget -q -O app.jar \
-    "https://github.com/mayintao/mbts-server/releases/download/mbts-260427-1/app-0.0.1-SNAPSHOT.jar"
+    "https://github.com/mayintao/mbts-server/releases/download/mbts-260428-1/app-0.0.1-SNAPSHOT.jar"
 
 # 7️⃣ 监听 10000 端口
 EXPOSE 10000
