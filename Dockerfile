@@ -38,7 +38,7 @@ RUN mkdir -p "${TESSDATA_PREFIX}" && \
 
 # 6. 下载 Spring Boot JAR
 RUN wget -q -O app.jar \
-    https://github.com/mayintao/mbts-server/releases/download/mbts-261112-6/app-0.0.1-SNAPSHOT.jar
+    https://github.com/mayintao/mbts-server/releases/download/mbts-261113-1/app-0.0.1-SNAPSHOT.jar
 
 # 7. 暴露端口
 EXPOSE 10000
